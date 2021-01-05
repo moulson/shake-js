@@ -1,4 +1,4 @@
-$.fn.shake = function(interval = 150){
+$.fn.shake = function(interval = 100){
     this.addClass('shaking');
     this.css('transition', 'all ' + (interval / 100).toString() + 's');
     setTimeout(() => {

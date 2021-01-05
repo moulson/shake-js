@@ -8,6 +8,6 @@ basic usage
 
     $('#element').shake();
 
-You can also supply a parameter to control the length of the effect, in ms. The default is 150.
+You can also supply a parameter to control the length of the effect, in ms. The default is 100.
 
     $('#element').shake(300);
