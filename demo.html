@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="shake.js"></script>
+    </head>
+    <body>
+        <style>
+            #shake{
+                text-align: center;
+                font-size: 2rem;
+                padding:2rem;
+            }
+            .panel{
+                margin: auto;
+                width: 50%;
+                background-color: #e1e1e1;
+                padding: 2rem;
+            }
+        </style>
+        <div id="shake">
+            Shake Me!
+        </div>
+
+        <div class="panel">
+            <input type=text/>
+        </div>
+
+        <button onclick="$('#shake').shake()" value="Shake!"/>
+    </body>
+</html>
