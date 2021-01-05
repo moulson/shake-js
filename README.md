@@ -1,6 +1,8 @@
 
 # shake-js
 
+### [Demo](https://moulson.github.io/shake-js/demo.html)
+
 ### Usage
 basic usage
 
